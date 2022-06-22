@@ -70,11 +70,8 @@ const Landing = () => {
       </header>
 
       <Sidebar />
-      {/* End Header */}
       <Hero />
-      {/* End Hero */}
-      <About />
-      {/* End Hero */}
+      {/* <About /> */}
 
       {/* <div className="edina_tm_services" id="service">
         <div className="container">
@@ -119,7 +116,7 @@ const Landing = () => {
         </div>
       </div> */}
 
-      <div className="edina_tm_news" id="blog">
+      {/* <div className="edina_tm_news" id="blog">
         <div className="container">
           <div className="edina_tm_title">
             <h3>Blog</h3>
@@ -127,13 +124,11 @@ const Landing = () => {
               See what I've written here.
             </p>
           </div>
-          {/* End edian_tm_title */}
           <Blog />
         </div>
-      </div>
-      {/* End Blog */}
+      </div> */}
 
-      <div className="edina_tm_contact" id="contact">
+      {/* <div className="edina_tm_contact" id="contact">
         <div className="container">
           <div className="edina_tm_title">
             <h3>Contact</h3>
@@ -144,7 +139,6 @@ const Landing = () => {
           <div className="extra_info">
             <Address />
           </div>
-          {/* End Address Info */}
           <div className="mainpart">
             
             <div
@@ -155,10 +149,9 @@ const Landing = () => {
             >
               <Map />
             </div>
-            {/* End Map */}
           </div>
         </div>
-      </div>
+      </div> */}
       {/* /CONTACT */}
     </div>
   );

@@ -34,10 +34,9 @@ const About = () => {
               </p>
             </div>
             <div className="my_skills">
-              <h3 className="title">What is my skill level?</h3>
+              <h3 className="title">Skill</h3>
               <p className="desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                ipsum sit nibh amet egestas tellus.
+              Ability to design and develop web or mobile application. Experience with hybrid mobile app development (React Native). Familiar with Version Control (GIT). Experience to create and develop RestAPI.
               </p>
               <div className="wrapper">
                 <div className="dodo_progress">
@@ -65,7 +64,7 @@ const About = () => {
                 className="main"
                 style={{
                   backgroundImage: `url(${
-                    process.env.PUBLIC_URL + "img/about/2.jpg"
+                    process.env.PUBLIC_URL + "img/about/2.png"
                   })`,
                 }}
                 data-aos="fade-left"

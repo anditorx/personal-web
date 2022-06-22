@@ -30,7 +30,10 @@ const Address = () => {
             <h3>Email</h3>
             <ul>
               <li>
-                <a href="mailto:ib-themes21@gmail.com">anditodev46@gmail.com</a>
+                <a href="mailto:anditodev46@gmail.com">anditodev46@gmail.com</a>
+              </li>
+              <li>
+                <a href="mailto:andirustianto46@gmail.com">andirustianto46@gmail.com</a>
               </li>
             </ul>
           </div>{" "}

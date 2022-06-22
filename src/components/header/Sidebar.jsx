@@ -9,7 +9,7 @@ const logo2 = "light";
 // sidebar content
 const sidebarContent = [
   { icon: "home", itemName: "Home", itemRoute: "#home", activeClass: "active" },
-  { icon: "human", itemName: "About", itemRoute: "#about", activeClass: "" },
+  // { icon: "human", itemName: "About", itemRoute: "#about", activeClass: "" },
   // {
   //   icon: "service",
   //   itemName: "Service",
@@ -29,12 +29,12 @@ const sidebarContent = [
   //   activeClass: "",
   // },
   // { icon: "blog", itemName: "Blog", itemRoute: "#blog", activeClass: "" },
-  {
-    icon: "contact",
-    itemName: "Contact",
-    itemRoute: "#contact",
-    activeClass: "",
-  },
+  // {
+  //   icon: "contact",
+  //   itemName: "Contact",
+  //   itemRoute: "#contact",
+  //   activeClass: "",
+  // },
 ];
 
 // sidebar footer bottom content
@@ -84,12 +84,12 @@ const Sidebar = () => {
             <ScrollspyNav
               scrollTargetIds={[
                 "home",
-                "about",
+                // "about",
                 // "service",
                 // "portfolio",
                 // "testimonial",
                 // "blog",
-                "contact",
+                // "contact",
               ]}
               activeNavClass="active"
               offset={0}

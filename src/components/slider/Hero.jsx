@@ -70,7 +70,8 @@ const Hero = () => {
           >
             <Social />
           </div>
-          <div
+          {/* button download cv */}
+          {/* <div
             className="edina_tm_button"
             data-aos="fade-up"
             data-aos-duration="1200"
@@ -79,7 +80,8 @@ const Hero = () => {
             <a href="img/cv_AndiRustianto.pdf" download className="color">
               Download CV
             </a>
-          </div>
+          </div> */}
+          {/* end button download cv */}
         </div>
       </div>
     </div>

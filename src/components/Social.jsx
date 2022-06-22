@@ -8,19 +8,14 @@ import {
 } from "react-icons/fi";
 
 const SocialShare = [
-  {
-    iconName: <FiFacebook />,
-    link: "https://www.facebook.com/",
-  },
-  { iconName: <FiTwitter />, link: "https://twitter.com/" },
+  { iconName: <FiTwitter />, link: "https://twitter.com/anditorx" },
   {
     iconName: <FiInstagram />,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/anditorx",
   },
-  { iconName: <FiDribbble />, link: "https://dribbble.com/" },
   {
     iconName: <FiLinkedin />,
-    link: "https://www.linkedin.com/feed/",
+    link: "https://www.linkedin.com/in/andirustianto/",
   },
 ];
 const Social = () => {

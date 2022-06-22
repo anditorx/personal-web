@@ -17,8 +17,8 @@ const Hero = () => {
         <div className="img-shape" data-aos="fade-up" data-aos-duration="1200">
           <img
             src={`img/hero/${heroContent.shapeImage}`}
-            srcSet={`img/hero/${heroContent.heroImage}.jpg`}
-            alt="about author"
+            srcSet={`img/hero/${heroContent.heroImage}.png`}
+            alt="anditorx"
           />
         </div>
         <div className="extra">
@@ -41,7 +41,7 @@ const Hero = () => {
                 loop
                 typeSpeed={150}
                 backSpeed={60}
-                strings={["Mobile Application Developer", "Software Engineer"]}
+                strings={["Software Engineer", "Mobile Application Developer"]}
                 smartBackspace
                 shuffle={false}
                 backDelay={1}

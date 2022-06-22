@@ -12,7 +12,7 @@ const ModalContent = () => {
           <h3>Personal Info</h3>
           <PersonalInfo />
           <div className="edina_tm_button">
-            <a href="img/cv.png" download className="color">
+            <a href="img/cv_AndiRustianto.pdf" download className="color">
               Download CV
             </a>
           </div>

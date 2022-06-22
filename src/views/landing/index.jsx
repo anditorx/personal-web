@@ -76,7 +76,7 @@ const Landing = () => {
       <About />
       {/* End Hero */}
 
-      <div className="edina_tm_services" id="service">
+      {/* <div className="edina_tm_services" id="service">
         <div className="container">
           <div className="edina_tm_title">
             <h3>What I Do</h3>
@@ -85,13 +85,11 @@ const Landing = () => {
               ipsum sit nibh amet egestas tellus.
             </p>
           </div>
-          {/* End edian_tm_title */}
           <Service />
         </div>
-      </div>
-      {/* End Services */}
+      </div> */}
 
-      <div className="edina_tm_portfolio" id="portfolio">
+      {/* <div className="edina_tm_portfolio" id="portfolio">
         <div className="container">
           <div className="edina_tm_title">
             <h3>Portfolio</h3>
@@ -100,13 +98,11 @@ const Landing = () => {
               ipsum sit nibh amet egestas tellus.
             </p>
           </div>
-          {/* End edian_tm_title */}
           <Portfolio />
         </div>
-      </div>
-      {/* End Portfolio */}
+      </div> */}
 
-      <div className="edina_tm_testimonials" id="testimonial">
+      {/* <div className="edina_tm_testimonials" id="testimonial">
         <div className="container">
           <div className="edina_tm_title">
             <h3>Testimonials</h3>
@@ -115,23 +111,20 @@ const Landing = () => {
               ipsum sit nibh amet egestas tellus.
             </p>
           </div>
-          {/* End edian_tm_title */}
           <div className="list ">
             <ul>
               <Testimonial />
             </ul>
           </div>
         </div>
-      </div>
-      {/* End Testimonial */}
+      </div> */}
 
       <div className="edina_tm_news" id="blog">
         <div className="container">
           <div className="edina_tm_title">
             <h3>Blog</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              See what I've written here.
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -145,8 +138,7 @@ const Landing = () => {
           <div className="edina_tm_title">
             <h3>Contact</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              Need something?
             </p>
           </div>
           <div className="extra_info">

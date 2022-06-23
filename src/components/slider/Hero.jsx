@@ -6,7 +6,7 @@ const heroContent = {
   shapeImage: "hero-shape",
   heroImage: "2",
   name: "Andi Rustianto",
-  description: `Software Engineer with over 4 years of experience in Software House or IT Consultant. Strong background in project management and customer relations.`,
+  description: `Software Engineer with 4+ years experience in Software House or IT Consultant with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success. Well-versed in technology and writing code to create systems that are reliable and user-friendly.`,
 };
 
 const Hero = () => {

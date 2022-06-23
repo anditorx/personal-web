@@ -59,14 +59,14 @@ const Blog = () => {
         <ul>
           <Slider {...settings}>
             <li data-aos="fade-right" data-aos-duration="1200">
-              <div className="list_inner">
-                <div className="image" onClick={toggleModalOne}>
+              <div className="list_inner"  onClick={()=> window.open("https://dev.to/anditorx/how-to-fix-error-decorators-legacy-react-native-45cl", "_blank")}>
+                <div className="image">
                   <img src="/img/placeholders/4-3.jpg" alt="thumb" />
                   <div
                     className="main"
                     style={{
                       backgroundImage: `url(${
-                        process.env.PUBLIC_URL + "img/news/4.jpg"
+                        process.env.PUBLIC_URL + "img/news/cover_reactnative.png"
                       })`,
                     }}
                   ></div>
@@ -75,11 +75,11 @@ const Blog = () => {
 
                 <div className="news_details">
                   <span>
-                    April 07,2021 <a href="#">Design</a>
+                    June 23, 2022 <a href="#">React Native</a>
                   </span>
-                  <h3 className="title" onClick={toggleModalOne}>
-                    Forzo Immobile
-                  </h3>
+                  <h3 className="title">
+                    How to fix Error: decorators-legacy in React Native
+                    </h3>
                 </div>
                 {/* End details */}
               </div>
@@ -92,13 +92,13 @@ const Blog = () => {
               data-aos-delay="150"
             >
               <div className="list_inner">
-                <div className="image" onClick={toggleModalTwo}>
+                <div className="image" onClick={()=> window.open("https://dev.to/anditorx/how-to-fix-eslint-error-must-use-import-to-load-es-module-e2n", "_blank")}>
                   <img src="/img/placeholders/4-3.jpg" alt="thumb" />
                   <div
                     className="main"
                     style={{
                       backgroundImage: `url(${
-                        process.env.PUBLIC_URL + "img/news/2.jpg"
+                        process.env.PUBLIC_URL + "img/news/cover_eslint.png"
                       })`,
                     }}
                   ></div>
@@ -107,10 +107,10 @@ const Blog = () => {
 
                 <div className="news_details">
                   <span>
-                    March 25,2021 <a href="#">Branding</a>
+                    June 23, 2022 <a href="#">VsCode</a>
                   </span>
-                  <h3 className="title" onClick={toggleModalTwo}>
-                    Mosby Lavette
+                  <h3 className="title">
+                  How to fix EsLint Error: Must use import to load ES Module
                   </h3>
                 </div>
                 {/* End details */}
@@ -125,13 +125,13 @@ const Blog = () => {
               data-aos-delay="300"
             >
               <div className="list_inner">
-                <div className="image" onClick={toggleModalThree}>
+                <div className="image" onClick={()=> window.open("https://dev.to/anditorx/how-to-fix-error-cocoapods-pod-install-in-mac-m1-30e", "_blank")}>
                   <img src="/img/placeholders/4-3.jpg" alt="thumb" />
                   <div
                     className="main"
                     style={{
                       backgroundImage: `url(${
-                        process.env.PUBLIC_URL + "img/news/3.jpg"
+                        process.env.PUBLIC_URL + "img/news/cover_cocoapodsm1.jpeg"
                       })`,
                     }}
                   ></div>
@@ -140,10 +140,10 @@ const Blog = () => {
 
                 <div className="news_details">
                   <span>
-                    May 01,2021 <a href="#">Lifestyle</a>
+                    June 23, 2022 <a href="#">Cocoapods</a>
                   </span>
-                  <h3 className="title" onClick={toggleModalThree}>
-                    Jacuba Bamba
+                  <h3 className="title">
+                  How to fix Error Cocoapods pod install in mac m1
                   </h3>
                 </div>
                 {/* End details */}
@@ -158,13 +158,13 @@ const Blog = () => {
               data-aos-dealy="400"
             >
               <div className="list_inner">
-                <div className="image" onClick={toggleModalFour}>
+                <div className="image" onClick={()=> window.open("https://dev.to/anditorx/react-native-error-task-appmergedexdebug-failed-26m", "_blank")}>
                   <img src="/img/placeholders/4-3.jpg" alt="thumb" />
                   <div
                     className="main"
                     style={{
                       backgroundImage: `url(${
-                        process.env.PUBLIC_URL + "img/news/1.jpg"
+                        process.env.PUBLIC_URL + "img/news/cover_reactnative.png"
                       })`,
                     }}
                   ></div>
@@ -173,10 +173,10 @@ const Blog = () => {
 
                 <div className="news_details">
                   <span>
-                    July 07,2021 <a href="#">Travel</a>
+                    June 23, 2022 <a href="#">React Native</a>
                   </span>
-                  <h3 className="title" onClick={toggleModalFour}>
-                    Dostie Memorie
+                  <h3 className="title">
+                    React Native Error: Task :app:mergeDexDebug FAILED
                   </h3>
                 </div>
                 {/* End details */}

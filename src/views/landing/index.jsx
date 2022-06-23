@@ -116,7 +116,7 @@ const Landing = () => {
         </div>
       </div> */}
 
-      {/* <div className="edina_tm_news" id="blog">
+      <div className="edina_tm_news" id="blog">
         <div className="container">
           <div className="edina_tm_title">
             <h3>Blog</h3>
@@ -126,7 +126,7 @@ const Landing = () => {
           </div>
           <Blog />
         </div>
-      </div> */}
+      </div>
 
       {/* <div className="edina_tm_contact" id="contact">
         <div className="container">
